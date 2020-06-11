@@ -6,7 +6,11 @@ Since I am a newcomer to NLP, which is a very exciting field in AI, I decide to 
 
 ## Papers
 
+**06/11/2020** [Efficient Estimation of Word Representations in Vector Space](./writeups/Word2vec.md) T.Mikolov, K.Chen, G.Corrado, J.Dean [pdf](https://arxiv.org/abs/1301.3781)
+
 **06/11/2020** [A Neural Probabilistic Language Model](./writeups/NNLM.md) Y.Bengio, R.Ducharme, P.Vincent, C. Jauvin [pdf](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+
+
 
 
 
