@@ -22,7 +22,7 @@
 
 ### Model
 
-![NNLM](./imgs/nnlm.png)
+<img src="../imgs/nnlm.png" alt="NNLM" style="zoom:33%;" />
 
 
 
