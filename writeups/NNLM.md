@@ -1,6 +1,6 @@
 # A Neural Probabilistic Language Model 
 
-###TL;DR
+### TL;DR
 
 * First paper to use neural networks to implement language model
 * Embed each word with a feature vector and construct a lookup embedding matrix to store them. 
