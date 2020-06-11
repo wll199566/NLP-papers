@@ -6,8 +6,6 @@
 * Embed each word with a feature vector and construct a lookup embedding matrix to store them. 
 * Use a MLP to compute next word given n-1 preceding words (n-gram)
 
-
-
 ### Hypothesis
 
 * Distribution representation: a word's meaning is represented by the context words around it. 
@@ -26,11 +24,20 @@
 
 
 
-
-
-
+* Use look-up table/matrix to embed precedent words $w_{t-n+1}$ to $w_{t-1}$
+* Concatenate all embedded vector together and feed it to a linear hidden layer with activation function of tanh
+* Put the hidden states to the output layer. The direct connection from the result of feeding the concatenation $x = (C(w_{t-n+1})\ldots C(w_{t-1}))$ via another hidden layer (no activation function) to the output layer is optional.
+* Use softmax to compute the probability of the next word $w_{t}$.
+* The overall equation: $P(w_{i}=i|context)=Utanh(Hx+b)+Wx+d$.
+* Loss function: CrossEntropy + L2 regularization, learnt with SGD
+* Evaluation metrics: Perplexity
 
 ### Conclusion
+
+* Neural language model outperforms traditional N-gram models by a large margin: 24% on Brown, 8% on AP news.
+* NNLM takes advantage of more context words, more precedent words are taken into account, lower perplexity it will get.
+* Hidden layer with tanh are useful which increases the depth of the model, enabling it to extract more abstract information
+* Whether the direct connection from input to output helps is not clear. Using it decreases the training convergence time, but with higher perplexity.
 
 
 
