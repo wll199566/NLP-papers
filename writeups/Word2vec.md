@@ -28,4 +28,5 @@ The paper uses the algebraic operation evaluation metrics: X = vector(word A) - 
 
 ### Question:
 
-when training the model, how to deal with the out-of-bag words which are not in the most frequent words?
+* when training the model, how to deal with the out-of-bag words which are not in the most frequent words?
+* CBOW and Skip-gram are still bag-of-word models, which does not consider the order of context words around it. How to embed the word consider the word order is the also the question. 
