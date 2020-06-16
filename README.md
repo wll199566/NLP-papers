@@ -6,6 +6,8 @@ Since I am a newcomer to NLP, which is a very exciting field in AI, I decide to 
 
 ## Papers
 
+**06/15/2020** [GloVe: Global Vectors for Word Representation](./writeups/GloVe.md) J.Pennington, R.Socher, C.D.Manning [pdf](https://nlp.stanford.edu/pubs/glove.pdf)
+
 **06/13/2020** [Distributed Representations of Words and Phrases and their Compositionality](./writeups/Negative_sampling.md) T.Mikolov, I.Sutskever, K. Chen, G.Corrado,  J.Dean [pdf](https://arxiv.org/abs/1310.4546)
 
 **06/11/2020** [Efficient Estimation of Word Representations in Vector Space](./writeups/Word2vec.md) T.Mikolov, K.Chen, G.Corrado, J.Dean [pdf](https://arxiv.org/abs/1301.3781)

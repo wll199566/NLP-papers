@@ -23,6 +23,7 @@
 * Another way to approximate Softmax. 
 * Negative sampling change the objective function from a softmax into a sigmoid to differentiate the pair $(w_{center}, w_{context})$ where context is in the neighborhood of the center word and k pairs where context is not in the neighborhood by sampling the context word from the corpus using 3/4 power of unigram probability (after it, note to re-normalize the probability making the sum of probability as one again).
 * Instead of updating all output/context word embedding matrix as backpropagation, negative sampling only updates the center word input embedding and selected k context word vectors, which saves a lot of time to train the whole model.
+* k = 10 is an optimal choice, which is gained from GloVe paper.
 * It turns out that negative sampling can improve the accuracy of frequent word representation. 
 
 ### Subsampling frequent words

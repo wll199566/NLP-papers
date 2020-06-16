@@ -29,7 +29,7 @@
 * Put the hidden states to the output layer. The direct connection from the result of feeding the concatenation $x = (C(w_{t-n+1})\ldots C(w_{t-1}))$ via another hidden layer (no activation function) to the output layer is optional.
 * Use softmax to compute the probability of the next word $w_{t}$.
 * The overall equation: $P(w_{i}=i|context)=Utanh(Hx+b)+Wx+d$.
-* Loss function: CrossEntropy + L2 regularization, learnt with SGD
+* Loss function: CrossEntropy + L2 regularization, learnt with SGD and the changing learning rate $\epsilon = \frac{\epsilon_{0}}{1+rt}$.
 * Evaluation metrics: Perplexity
 
 ### Conclusion
