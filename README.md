@@ -6,6 +6,10 @@ Since I am a newcomer to NLP, which is a very exciting field in AI, I decide to 
 
 ## Papers
 
+
+
+**06/17/2020** [Bag of Tricks for Efficient Text Classification](./writeups/fastText_2.md) A.Joulin, E.Grave, P.Bojanowski, T.Mikolov [pdf](https://arxiv.org/pdf/1607.01759.pdf)
+
 **06/16/2020** [Enriching Word Vectors with Subword Information](./writeups/FastText_1.md) P.Bojanowski, E.Grave, A.Joulin, T.Mikolov [pdf](https://arxiv.org/pdf/1607.04606.pdf)
 
 **06/15/2020** [GloVe: Global Vectors for Word Representation](./writeups/GloVe.md) J.Pennington, R.Socher, C.D.Manning [pdf](https://nlp.stanford.edu/pubs/glove.pdf)
