@@ -6,7 +6,7 @@ Since I am a newcomer to NLP, which is a very exciting field in AI, I decide to 
 
 ## Papers
 
-**06/21/2020** [Skip-Thought Vectors](./writeups/Skip-Thought Vectors.md) R.Kiros, Y.Zhu, R.Salakhutdinov, R.S.Zemel, A.Torralba, R.Urtasun, S.Fidler [pdf](https://arxiv.org/pdf/1506.06726.pdf)
+**06/21/2020** [Skip-Thought Vectors](./writeups/Skip_thought.md) R.Kiros, Y.Zhu, R.Salakhutdinov, R.S.Zemel, A.Torralba, R.Urtasun, S.Fidler [pdf](https://arxiv.org/pdf/1506.06726.pdf)
 
 **06/20/2020** [Distributed Representations of Sentences and Documents](./writeups/Paragraph2vec.md) Q.Le, T.Mikolov [pdf](https://arxiv.org/pdf/1405.4053.pdf)
 
