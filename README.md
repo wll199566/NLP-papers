@@ -6,6 +6,8 @@ Since I am a newcomer to NLP, which is a very exciting field in AI, I decide to 
 
 ## Papers
 
+**06/23/2020** [Transfer Learning in NLP](./writeups/tl-nlp.md) [pdf1](https://arxiv.org/pdf/1705.02364.pdf) [pdf2](https://arxiv.org/pdf/1804.00079.pdf)
+
 **06/22/2020** [An Efficient Framework for Learning Sentence Representations](./writeups/quick_thoughts.md) L.Logeswaran, H.Lee [pdf](https://arxiv.org/pdf/1803.02893.pdf) 
 
 **06/21/2020** [Skip-Thought Vectors](./writeups/Skip_thought.md) R.Kiros, Y.Zhu, R.Salakhutdinov, R.S.Zemel, A.Torralba, R.Urtasun, S.Fidler [pdf](https://arxiv.org/pdf/1506.06726.pdf)
