@@ -1,0 +1,10 @@
+# Learned in Translation: Contextualized Word Vectors
+
+* This paper is like what happens combining the transfer learning for sentence we have seen in previous several papers, and word vectors. It assumes that although pretrained word vectors have succeeded in NLP, they are not flawless: it does not contain information about its context apart from its context window. Therefore, how to get a general encoder which can encode all context attentively is what this article tries to solve. To test their context representation, the paper also uses several transfer learning tasks.
+* Like the previous works on sentence representation, the paper uses a supervised task to train the encoder. Since they try to focus on the context attentively, Machine Translation is the task they select since when decoders translate one word, it always refers to the context in the whole sequence using attention. Different from previous work, the paper just get the output from each step as a context vector using a Bidirectional LSTM, which can capture the context from both sides, and concatenate it with word vector and then use a task-specific encoder and classifier to finish the transfer learning tasks. 
+* It turns out that context vector can improve performance of the model which only uses pretrained word vectors (GloVe) on transfer tasks  and adding the character-level n-grams can further improve the performance
+* The paper also found that, compared to Skip-Thought vectors which encode the whole sequence context into a single vector, CoVe, which encodes context distributedly into single words can encode the sequence better.
+* Comment: 
+  * This paper has the different idea, which is to represent the context distributedly into each word in the sequence. This is an innovative direction about how to encode the sequence. 
+  * Although they use a bidirectional LSTM to encode the context from both sides, why not use self-attention in the encoder which can encode the context with different probability and weights? 
+
