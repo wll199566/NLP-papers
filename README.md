@@ -6,6 +6,8 @@ Since I am a newcomer to NLP, which is a very exciting field in AI, I decide to 
 
 ## Papers
 
+**07/01/2020** [Deep contextualized word representations](./writeups/ELMo.md) M.E.Peters, M.Neumann, M.Iyyer, M.Gardner, C.Clark, K.Lee, L.Zettlemoyer [pdf](https://arxiv.org/pdf/1802.05365.pdf) 
+
 **06/25/2020** [Learned in Translation: Contextualized Word Vectors](./writeups/CoVe.md) B.McCann,  J.Bradbury, C.Xiong, R.Socher [pdf](https://arxiv.org/pdf/1708.00107v2.pdf) 
 
 **06/24/2020** [Transfer Learning in NLP (part II)](./writeups/tl-nlp-2.md) [pdf](https://arxiv.org/pdf/1803.11175.pdf)
