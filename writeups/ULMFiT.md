@@ -25,7 +25,7 @@ This paper does not introduce fancy language models, instead, it gives us severa
 
     * The intuition is that the model needs to first adapt to the new latent parameter space from a new corpus quickly, and then refine its parameters util converage. An example of learning rate is as follows:
 
-      <img src="../imgs/slanted _lr.png" alt="slanted LR" style="zoom:50%;" />
+      <img src="../imgs/slanted_lr.png" alt="slanted LR" style="zoom:50%;" />
 
 * Fine-tune classifier
 
