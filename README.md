@@ -6,6 +6,8 @@ Since I am a newcomer to NLP, which is a very exciting field in AI, I decide to 
 
 ## Papers
 
+**07/11/2020** [Improving Language Understanding by Generative Pre-Training](./writeups/GPT.md) A.Radford,  K.Narasimhan, T.Salimans, I.Sutskever [pdf](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+
 **07/06/2020** [Universal Language Model Fine-tuning for Text Classification](./writeups/ULMFiT.md) J.Howard, S.Ruder [pdf](https://arxiv.org/pdf/1801.06146.pdf)
 
 **07/01/2020** [Deep contextualized word representations](./writeups/ELMo.md) M.E.Peters, M.Neumann, M.Iyyer, M.Gardner, C.Clark, K.Lee, L.Zettlemoyer [pdf](https://arxiv.org/pdf/1802.05365.pdf) 
