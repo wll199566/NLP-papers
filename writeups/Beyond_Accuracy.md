@@ -32,7 +32,7 @@ The checklist is a matrix, whose columns are test types, rows are capacities and
 
 * The example of CHECKLIST is as follows:
 
-  ![checklist](../imgs/Beyond Accuracy Checklist.png)
+  <img src="../imgs/Beyond_Accuracy_Checklist.png" alt="checklist" style="zoom:50%;" />
 
 
 
