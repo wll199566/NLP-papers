@@ -6,6 +6,8 @@ Since I am a newcomer to NLP, which is a very exciting field in AI, I decide to 
 
 ## Papers
 
+**09/02/2020** Beyond Accuracy: [Behavioral Testing of NLP Models with CHECKLIST](./writeups/Beyond Accuracy.md) (ACL 2020 Best paper) M.T.Tibeiro, T.Wu, C.Guestrin, S.Singh [pdf](https://arxiv.org/abs/2005.04118) 
+
 **07/18/2020** [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](./writeups/BERT.md) J.Devlin, M.Chang, K.Lee, K.Toutanova [pdf](https://arxiv.org/pdf/1810.04805.pdf)
 
 **07/11/2020** [Improving Language Understanding by Generative Pre-Training](./writeups/GPT.md) A.Radford,  K.Narasimhan, T.Salimans, I.Sutskever [pdf](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
