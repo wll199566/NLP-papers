@@ -1,10 +1,10 @@
-
-
 # NLP papers Hui has read
 
 Since I am a newcomer to NLP, which is a very exciting field in AI, I decide to try my best to read carefully one paper per day to complement my NLP knowledge. Here is my reading list and reading summaries. The format is from [Irene's reading list](https://github.com/irenetrampoline/papers).
 
 ## Papers
+
+**12/10/2020** [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context ](./writeups/Transformer-XL.md) Z.Dai, Z.Yang, Y.Yang,  J.Carbonell, Q.V.Le, R.Salakhutdinov [pdf](https://arxiv.org/abs/1901.02860)
 
 **09/02/2020** Beyond Accuracy: [Behavioral Testing of NLP Models with CHECKLIST](./writeups/Beyond_Accuracy.md) (ACL 2020 Best paper) M.T.Tibeiro, T.Wu, C.Guestrin, S.Singh [pdf](https://arxiv.org/abs/2005.04118) 
 
